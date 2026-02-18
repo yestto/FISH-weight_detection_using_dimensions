@@ -1,0 +1,6 @@
+seed,train_fish_ids,test_fish_ids,train_rows,test_rows,test_ids,selected_by,model,cv_mae,test_mae,test_rmse,test_r2,best_params
+42,12,3,600,150,"fish15,fish2,fish4",cv,svr_rbf,10.62000831915976,17.84207023757239,27.357734038821192,-0.4165912152827671,"{'model__C': 1.0, 'model__epsilon': 0.1, 'model__gamma': 0.01}"
+43,12,3,600,150,"fish11,fish3,fish8",cv,svr_rbf,10.884892175676555,21.641281856141497,35.22489088674877,-0.17105775013792113,"{'model__C': 1.0, 'model__epsilon': 0.1, 'model__gamma': 0.01}"
+44,12,3,600,150,"fish01,fish4,fish5",cv,svr_rbf,7.572505051136074,36.9695434109071,40.78850912825047,-4.351654456670383,"{'model__C': 1.0, 'model__epsilon': 0.1, 'model__gamma': 0.01}"
+45,12,3,600,150,"fish4,fish6,fish9",cv,ridge,9.122105046685009,19.74926381307223,27.61546127486379,-0.5299833390566457,{'model__alpha': 10.0}
+46,12,3,600,150,"fish10,fish15,fish9",cv,svr_rbf,14.919333584412836,2.521398599557764,3.4055647580236226,-0.06067096591443222,"{'model__C': 1.0, 'model__epsilon': 0.1, 'model__gamma': 0.01}"
